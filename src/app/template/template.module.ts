@@ -18,6 +18,7 @@ import { FooterComponent } from './footer/footer.component';
   exports: [
     NavigationComponent,
     HeaderComponent,
+    FooterComponent,
   ]
 })
 export class TemplateModule { }
