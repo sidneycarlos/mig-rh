@@ -10,10 +10,14 @@ import { FooterComponent } from './footer/footer.component';
   declarations: [
     HeaderComponent,
     NavigationComponent,
-    FooterComponent
+    FooterComponent,
   ],
   imports: [
     CommonModule
+  ],
+  exports: [
+    NavigationComponent,
+
   ]
 })
 export class TemplateModule { }
