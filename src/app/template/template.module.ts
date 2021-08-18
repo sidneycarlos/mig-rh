@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './header/header.component';
 import { NavigationComponent } from './navigation/navigation.component';
 import { FooterComponent } from './footer/footer.component';
+import { ContentComponent } from './content/content.component';
 
 
 
@@ -11,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
     HeaderComponent,
     NavigationComponent,
     FooterComponent,
+    ContentComponent,
   ],
   imports: [
     CommonModule
@@ -19,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
     NavigationComponent,
     HeaderComponent,
     FooterComponent,
+    ContentComponent,
   ]
 })
 export class TemplateModule { }
