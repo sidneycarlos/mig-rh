@@ -15,7 +15,7 @@ import { ContentComponent } from './content/content.component';
     ContentComponent,
   ],
   imports: [
-    CommonModule
+    CommonModule,
   ],
   exports: [
     NavigationComponent,

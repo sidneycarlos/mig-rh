@@ -7,17 +7,18 @@ import { TeamsComponent } from './teams/teams.component';
 import { AllstaffComponent } from './allstaff/allstaff.component';
 
 
-
 @NgModule({
   declarations: [
     DashboardComponent,
     EmployeesComponent,
     OperationsComponent,
     TeamsComponent,
-    AllstaffComponent
+    AllstaffComponent,
+
   ],
   imports: [
     CommonModule
-  ]
+  ],
+
 })
 export class PagesModule { }
